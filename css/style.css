@@ -68,3 +68,10 @@ img,picture{
 #howItWorks-link {
     text-align: center;
 }
+
+
+@media (max-width: 768px) {
+    .flex{
+        flex-direction: column;
+    }
+}
