@@ -13,7 +13,7 @@
     <div class="page-container">
 
         <!--Page Header Section-->
-        <header class="header">
+        <header class="header flex mg">
             <!--Header Image-->
             <div class="img-logo">
                 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" />
@@ -21,19 +21,18 @@
         
         <!--Nav bar section in header-->
         <nav class="navigation-bar">
-            <ul>
+            <ul class="flex">
                 <li><a id="navbar-link" href="#features-link">Features</a></li>
                 <li><a id="navbar-link" href="#howItWorks-link">How It Works</a></li>
                 <li><a id="navbar-link" href="#pricing-link">Pricing</a></li>
               </ul>
         </nav>
         <!-- End of Nav bar section in header-->
-
         </header>
         <!--End of Header Section-->
     
     <!-- Main Page Section-->
-    <main class="main-section">
+    <main class="main-section mg">
         <p>Handcrafted, home-made masterpieces</p>
         <form id="subscription-form" action="#">
             <input id="email" type="email" placeholder="Enter your email address" />
@@ -45,8 +44,8 @@
     <!--Services section-->
     <div class="services">
         <!--Feature section-->
-        <section id="features-link">
-            <div class="section">
+        <section id="features-link" class="mg flex">
+            <div class="section card">
                 <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
                 <h2>Premium Materials</h2>
                 <p>
@@ -55,7 +54,7 @@
                 </p>
             </div>
 
-            <div class="section">
+            <div class="section card">
                 <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
                 <h2>Fast Shipping</h2>
                 <p>
@@ -64,7 +63,7 @@
                   </p>
             </div>
 
-            <div class="section">
+            <div class="section card">
                 <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
                 <h2>Quality Assurance</h2>
                 <p>
@@ -88,8 +87,8 @@
           <!--End of How it Works Section-->
 
           <!--Pricing Section-->
-          <section id="pricing-link">
-            <div class="product">
+          <section id="pricing-link" class="flex mg">
+            <div class="product card">
               <div class="levels">Tenor Trombone</div>
               <h2>$600</h2>
               <ol>
@@ -100,7 +99,7 @@
               </ol>
               <button class="button">Select</button>
             </div>
-            <div class="product">
+            <div class="product card">
               <div class="levels">Bass Trombone</div>
               <h2>$900</h2>
               <ol>
@@ -111,7 +110,7 @@
               </ol>
               <button class="button">Select</button>
             </div>
-            <div class="product">
+            <div class="product card">
               <div class="levels">Valve Trombone</div>
               <h2>$1200</h2>
               <ol>
@@ -127,7 +126,7 @@
         
           <!--Footer Section-->
           <footer>
-            <ul>
+            <ul class="flex">
               <li><a href="#">Privacy</a></li>
               <li><a href="#">Terms</a></li>
               <li><a href="#">Contact</a></li>

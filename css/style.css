@@ -1,0 +1,52 @@
+.page-container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+    max-width: 60rem;
+}
+
+.flex{
+    display: flex;
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+img,picture{
+    max-width: 200%;
+}
+
+.mg {
+    margin: 20px 0;
+    padding:10px 0;
+}
+
+
+.card{
+    width: 300px;
+    height: 200px;
+}
+
+.header {
+    margin: 20px 0;
+    place-items: center;
+}
+.header > .img-logo{
+    width: 100px;    
+    margin-right: 20rem
+}
+
+.main-section {
+    text-align: center;
+}
+
+#howItWorks-link {
+    text-align: center;
+}
