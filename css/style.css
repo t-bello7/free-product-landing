@@ -3,6 +3,10 @@
  --clr-light-blue: 62 180 137;
  --clr-white: 255,255,255;
 }
+*{
+    padding:0;
+    margin: 0;
+}
 .page-container {
     margin-inline: auto;
     padding-inline: 2rem;
@@ -33,7 +37,7 @@ li, a{
 }
 
 img,picture{
-    max-width: 200%;
+    max-width: 100%;
 }
 
 .mg {
@@ -51,12 +55,13 @@ img,picture{
     padding: 20px
 }
 
-.header {
-    margin: 20px 0;
+#header {
     place-items: center;
     color: rgb(var(--clr-white));
+    position: fixed;
+    top: 0;
 }
-.header > .img-logo{
+#header > div {
     width: 100px;    
     margin-right: 20rem
 }

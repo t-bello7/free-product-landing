@@ -7,25 +7,21 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!-- The complete page container-->
     <div class="page-container">
-
         <!--Page Header Section-->
-        <header class="header flex mg bg-dark">
+        <header id="header" class="flex bg-dark">
             <!--Header Image-->
-            <div class="img-logo">
-                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" />
+            <div>
+                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img" alt="logo-img" />
             </div>
         
         <!--Nav bar section in header-->
-        <nav class="navigation-bar">
-            <ul class="flex">
-                <li><a id="navbar-link" href="#features-link">Features</a></li>
-                <li><a id="navbar-link" href="#howItWorks-link">How It Works</a></li>
-                <li><a id="navbar-link" href="#pricing-link">Pricing</a></li>
-              </ul>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features-link">Features</a>
+            <a class="nav-link" href="#howItWorks-link">How It Works</a>
+            <a class="nav-link" href="#pricing-link">Pricing</a>
         </nav>
         <!-- End of Nav bar section in header-->
         </header>
@@ -34,9 +30,10 @@
     <!-- Main Page Section-->
     <main class="main-section mg">
         <p>Handcrafted, home-made masterpieces</p>
-        <form id="subscription-form" action="#">
-            <input id="email" type="email" placeholder="Enter your email address" />
+        <form id="form" action="https://www.freecodecamp/email-submit">
+            <input id="email" type="email" name="email" placeholder="Enter your email address" />
             <input id="submit" type="submit" value="Get Started"/>
+            <!-- <button type="submit">Get Started</button> -->
         </form>
     </main>
     <!--End of Main Section -->
@@ -140,7 +137,7 @@
 
     </div>
     <!--End of Page Container-->
-
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>
 </html>
